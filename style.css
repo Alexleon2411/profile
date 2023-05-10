@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+body {
+  background-color: #AFD3E2;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #19376D;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #146C94;
+  font-family: 'Instrument Serif', serif;
+  line-height: 1.6;
+}
+
+h2 {
+  color: aqua;
+  font-family: 'Varela', sans-serif;
+  font-size: 30px;
+}
+
+.btn-blue{
+  background-color: #146C94;
+  color: aliceblue;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn-blue:hover {
+  background-color: aqua;
+  transition: 0.6s;
+  color: black;
+}
+
+a, .fa-brands {
+  text-decoration: none;
+  color: #146C94;
+}
+
+.fa-brands{
+  font-size: 40px;
+}
+
+.fa-brands:hover {
+  color: #19376D;
+  transition: 0.3s;
+  font-size: 50px;
+
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.card-white {
+  background-color: rgb(248, 254, 255);
+  padding: 30px;
+  border: 1px solid lightblue;
+  margin: 5px auto;
+  width: 500px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 2px 1px #3A98B9;
+
+}
+.second-card {
+  padding: 10px 30px;
+  margin-top: 20px;
+}
+
+li {
+  display: inline-block;
+  padding: opx;
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul {
+  padding: 0px;
+  text-align: center;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 250px;
+    transition: 0.7s;
+  }
+  li{
+    display:list-item;
+  }
